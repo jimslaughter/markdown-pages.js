@@ -1,9 +1,7 @@
 
-![markdown logo](assets/images/mdp.svg)
+# This is a simple home page for testing purposes_
 
-# markdown-pages.js - _simple Markdown-based static sites, without the generator_
-
-Use **markdown-pages.js** to create simple websites using [Markdown](https://www.markdownguide.org/basic-syntax/) files for page content. No site generator necessary - no build process, installs, etc. Client-side JavaScript fetches the Markdown files and handles the conversion to HTML. Content files can be edited directly where they are hosted! Check out the **[GitHub ![GitHub Logo](assets/images/github.png) repository](https://github.com/dandalpiaz/markdown-pages)**!
+This site will be informational in nature. It will describe the business services we provide and the biographies of personnel.  
 
 ## Table of Contents
 
@@ -13,11 +11,9 @@ Use **markdown-pages.js** to create simple websites using [Markdown](https://www
 - [User Styles & Scripts](#user-styles--scripts)
 - [Limitations](#limitations)
 
-## Quick Start
+## Services Offered  
 
-To use the library, simply add the JavaScript file in the `<head>` section of your `index.html` file and create empty `<header>`, `<main>`, and `<footer>` elements.
-
-```
+We offer a number of consulting service relating to KYC and FNC.  
 <!doctype html>
 <html lang="en">
 <head>
@@ -38,16 +34,7 @@ To use the library, simply add the JavaScript file in the `<head>` section of yo
 </html>
 ```
 
-Start from a fork of [markdown-pages.js](https://github.com/dandalpiaz/markdown-pages), or, use the CDN link like the snippet above. The library will use the `README.md` file for the homepage content. Optionally, a `header.md` and `footer.md` file can be created to populate those sections. All other pages should be stored in a `pages` directory. For example, a file at `pages/sample-page.md` can be linked to as follows:
-
-```
-Check out the [sample page](?page=sample-page)
-```
-
-**Check out the [sample page](?page=sample-page)** (link will work on the rendered site, not github.com).
-
-_Note: if you need to use HTML elements that don't have a Markdown equivalent, you can simply add the HTML in the Markdown file. It will be ignored by the converter and kept as-is._
-
+S
 ## Markdown Options
 
 The library uses the [Showdown JS](https://showdownjs.com/) converter which provides some extra options for how the Markdown content will be converted. The following [Showdown options](https://showdownjs.com/docs/available-options/) are active for this library:
